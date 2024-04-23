@@ -15,11 +15,9 @@ function showBtn() {
   }
 }
 
-function backToTop(){
+function backToTop() {
   rootEl.scrollTo({
-    top:0,
-    behavior:"smooth"
+    top: 0,
+    behavior: 'smooth',
   })
 }
-
-
