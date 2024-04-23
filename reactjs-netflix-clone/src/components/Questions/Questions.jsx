@@ -27,6 +27,7 @@ function Questions({ title, info }) {
               background: 'transparent',
               fontSize: '3rem',
               color: '#fff',
+              cursor: 'pointer',
             }}
             onClick={() => setShowInfo(!showInfo)}
           >
